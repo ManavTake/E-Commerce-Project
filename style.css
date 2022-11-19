@@ -55,12 +55,14 @@ body {
     justify-content: space-between;
     padding:20px 100px;
     background:#ece8fe;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
 #navbar {
     display: flex;
     align-items:center;
     justify-content:center;
+    /*position:fixed;*/
 }
 #navbar li {
     list-style: none;
@@ -90,4 +92,42 @@ body {
     position:absolute;
     bottom:16px;
     left:20px;
+}
+
+#bigpicture {
+    background-image: url(Images/2.jpg);
+    height: 90vh;
+    width:100%;
+    background-size: cover;
+    background-position:top center ;
+    text-align: right;
+    padding:0 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+#bigpicture h4 {
+    padding:10px 0px;
+}
+
+#bigpicture h1 {
+    padding:10px 0px;
+    color: #ece8fe;
+}
+
+#bigpicture button {
+    background-image:url(Images/4.png) ;
+    background-size: 100%;
+    background-color: transparent;
+    color:black;
+    border:0;
+    padding:14px 45px 14px 45px;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    font-size:20px;
+    font-weight: 700;
+
 }
