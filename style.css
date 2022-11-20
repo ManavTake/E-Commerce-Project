@@ -7,28 +7,28 @@
 }
 
 h1 {
-    font-size:50px;
+    font-size:45px;
     line-height:64px;
     color:#222;
 }
 
 
 h2 {
-    font-size:46px;
+    font-size:50px;
     line-height:54px;
     color:#222;
 }
 
 
 h4 {
-    font-size:20px;
+    font-size:40px;
     color:#222;
 }
 
 
 h6 {
     font-weight: 700;
-    font-size:12px;
+    font-size:20px;
 }
 
 p {
@@ -56,13 +56,17 @@ body {
     padding:20px 100px;
     background:#ece8fe;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position:sticky;
+    top:0;
+    left:0;
 }
 
 #navbar {
     display: flex;
     align-items:center;
     justify-content:center;
-    /*position:fixed;*/
+    
 }
 #navbar li {
     list-style: none;
@@ -72,7 +76,7 @@ body {
 
 #navbar li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bolder;
     color: rgb(43, 45, 45);
     transition:0.4s ease;
@@ -102,19 +106,25 @@ body {
     background-position:top center ;
     text-align: right;
     padding:0 50px;
-    display:flex;
+    /*display:flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-end;*/
+    text-align: right;
     justify-content: center;
     
 }
 
 #bigpicture h4 {
-    padding:10px 0px;
+    padding:230px 0px 0px 0px;
+    font-weight: bold;
 }
 
+#bigpicture h2 {
+    padding:20px 0px 0px 0px;
+    
+}
 #bigpicture h1 {
-    padding:10px 0px;
+    padding:20px 0px 0px 0px;
     color: #ece8fe;
 }
 
