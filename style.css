@@ -237,8 +237,6 @@ body {
     margin-bottom: 15px;
 }
 
-
-
 /* Next feature */
 #features .a5{
     width: 180px;
@@ -275,4 +273,68 @@ body {
     justify-content: center;
     flex-wrap: wrap; 
      /* For wrapping up data in other devices */
+}
+
+#productsection {
+    text-align: center;
+    padding:40px 0px;
+    font-weight: 1000;
+    padding:30px 30px;
+}
+
+#productsection .pro1 {
+    text-align: center;
+    width:25%;
+    min-width: 250px;
+    border:1px solid #cce7d0;
+    padding:10px 12px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    border-radius: 25px;
+}
+
+#productsection .pro1 img {
+    width: 65%;
+    border-radius: 20px;
+    padding:2px;
+
+}
+
+#productsection .pro1 .description{
+    text-align:start;
+    padding:0px 20px;
+}
+
+#productsection .pro1 .description span {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+#productsection .pro1 .description h5 {
+    font-size:20px ;
+    padding: 5px 0;
+}
+
+#productsection .pro1 .description .stars {
+    padding: 2px 0;
+    color:#ffd100;
+}
+
+#productsection .pro1:hover {
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.17);
+}
+
+#productsection .pro1 .cart{
+    position:relative;
+    background-color: #cce7d0;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    line-height: 50px;
+    left:150px;
+    bottom: 40px;
+}
+
+#productsection .pro1 .description h4 {
+    padding:10px 0;
 }
