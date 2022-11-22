@@ -348,3 +348,9 @@ body {
     display:flex;
     justify-content: space-between         ;
 }
+
+#productsection .products 
+{
+    padding:30px 0;
+}
+
