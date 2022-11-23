@@ -29,12 +29,7 @@ p {
     margin:15px 0 20px 0;  
 
 }
-.section-p1 {
-    padding:40px 80px;
-}
-.section-m1 {
-    margin: 40px 0;
-}
+
 body {
     width: 100%;
 }
@@ -43,14 +38,18 @@ body {
     align-items:center;
     justify-content: space-between;
     padding:20px 100px;
-    background:#ece8fe;
+    background:white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position:sticky;
     top:0;
     left:0;
+    height:20%;
 }
 
+#header img {
+    width:80px;
+}
 #navbar {
     display: flex;
     align-items:center;
@@ -63,7 +62,7 @@ body {
 }
 #navbar li a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bolder;
     color: rgb(43, 45, 45);
     transition:0.4s ease;
@@ -100,10 +99,22 @@ body {
 
 #bigpicture h4 {
     padding:10px 0px;
+    font-size: 30px;
+    color: #ece8fe;
+}
+
+#bigpicture h2 {
+    color: #ece8fe;
 }
 
 #bigpicture h1 {
     padding:10px 0px;
+    font-size:  60px;;
+    color: #ece8fe;
+}
+
+#bigpicture p {
+    font-size: 30px;
     color: #ece8fe;
 }
 
@@ -140,11 +151,11 @@ body {
     line-height:1;
     border-radius: 4px;
  
-    background-color:#D0B1B8; 
+    background-color:#ECE8FE; 
 }
 
 #features .a1 img {
-    width:100%;
+    width:71.5%;
     margin-bottom: 15px;
 }
 
@@ -172,7 +183,7 @@ body {
 }
 
 #features .a2 img {
-    width:100%;
+    width:61.25%;
     margin-bottom: 15px;
 }
 
@@ -202,40 +213,13 @@ body {
 }
 
 #features .a3 img {
-    width:100%;
+    width:95%;
     margin-bottom: 15px;
 }
 
 
 
-/* Next feature */
-#features .a4{
-    width: 180px;
-    text-align: center;
-    padding: 25px 15px;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-    border: 2px solid #cce7d0;
-    border-radius: 4px;
-    margin: 15px;
-}
 
-#features .a4:hover {
-    box-shadow: 10px 10px 54px rgba(0,0,0,0.17);
-}
-
-#features .a4 h6{
-    padding: 10px 5px 5px 5px;
-    line-height:1;
-    border-radius: 4px;
- 
-    background-color: #E2DDF1;
-
-}
-
-#features .a4 img {
-    width:100%;
-    margin-bottom: 15px;
-}
 
 /* Next feature */
 #features .a5{
@@ -262,7 +246,7 @@ body {
 }
 
 #features .a5 img {
-    width:100%;
+    width:71%;
     margin-bottom: 15px;
 }
 
@@ -291,6 +275,7 @@ body {
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
     border-radius: 25px;
+    position:relative;
 }
 
 #productsection .pro img {
@@ -325,14 +310,14 @@ body {
 }
 
 #productsection .pro .cart{
-    position:relative;
+    position:absolute;
     background-color: #cce7d0;
     border-radius: 50%;
     width:50px;
     height:50px;
     line-height: 50px;
-    left:150px;
-    bottom: 40px;
+    bottom:20px;
+    right:10px;
 }
 
 #productsection .pro .description h4 {
