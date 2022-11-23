@@ -29,10 +29,10 @@ p {
     margin:15px 0 20px 0;  
 
 }
-section-p1 {
+.section-p1 {
     padding:40px 80px;
 }
-section-m1 {
+.section-m1 {
     margin: 40px 0;
 }
 body {
@@ -354,3 +354,47 @@ body {
     padding:30px 0;
 }
 
+footer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer {
+    padding:15px;
+    
+}
+
+footer .col {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer .logo {
+    margin-bottom:30px;
+}
+
+footer h4{
+    font-size: 22px;
+    padding-bottom:20px;
+}
+
+footer p {
+    font-size: 17px;
+    text-decoration: none;
+    margin:0 0 8px 0;
+}
+
+footer a{
+    font-size: 17px;
+    text-decoration: none;
+    color:black;
+    margin:0 0 8px 0;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color:red;
+}
